@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={mavenPro.className}>
+            <body className={`${mavenPro.className} h-auto`}>
                 <Navbar />
                 {children}
                 <Footer />

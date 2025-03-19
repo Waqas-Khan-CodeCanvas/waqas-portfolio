@@ -5,12 +5,12 @@ import { FaExternalLinkAlt, FaCode, FaLaptopCode } from "react-icons/fa";
 
 const Certifications = () => {
   return (
-    <div className="mt-10 px-5 md:px-10">
+    <div className="mt-10 pt-5 md:px-10">
       <h1 className="text-white text-5xl font-extrabold mb-8 border-b-4 border-lime-400 pb-2 w-max">
         My Projects
       </h1>
 
-      <div className="my-10 p-3">
+      <div className="mt-10 p-3">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((proj, index) => (
             <div
@@ -40,11 +40,8 @@ const Certifications = () => {
             
           ))}
             <Link href="/" target="_blank" rel="noopener noreferrer">
-                  {/* <button className="mx-auto mt-3 px-4 py-2 text-sm font-semibold text-white bg-lime-500 rounded-md hover:bg-lime-600 transition flex items-center gap-2">
-                    View Project <FaExternalLinkAlt />
-                  </button> */}
                 </Link>
-                <Link href="/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://github.com/Waqas-Khan-CodeCanvas/JavaScript-Projects-2025" target="_blank" rel="noopener noreferrer">
                   <button className="mx-auto mt-3 px-4 py-2 text-sm font-semibold text-white bg-lime-500 rounded-md hover:bg-lime-600 transition flex items-center gap-2">
                     View more <FaExternalLinkAlt />
                   </button>
@@ -53,7 +50,7 @@ const Certifications = () => {
       </div>
 
       {/*************** Self-Learned Projects Section **************/}
-      <div className="my-16 p-6 bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg shadow-lg">
+      <div className="mt-16 p-6 bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-lime-400 flex items-center gap-2">
           <FaLaptopCode /> Self-Learned Projects
         </h2>
